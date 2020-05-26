@@ -1,0 +1,84 @@
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.logo
+{
+  padding: 10%;
+  height:10%;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #eee;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #636664;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 20px;
+  margin-left: 50px;
+}
+
+
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.vertical-menu {
+  width: 300px;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+.vertical-menu a:hover {
+  background-color: #b3b3b3;
+}
+
+.vertical-menu a.active {
+  background-color: #42a4f5;
+  color: white;
+}
+
+.card{
+  margin: 1%;
+  background-color: #ffffff;
+
+}
+.chart_div{
+  height:100%;
+}
