@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>News Feed</title>
+
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link href="./css/nav.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="text/javascript" src="./js/INDICES.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+ 
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&family=Vollkorn:wght@800&display=swap" rel="stylesheet"></head>
+
+</head>
+<body>
+	
+<div id="mySidenav" class="sidenav">
+  <h1 class="display-4" style="font-size: 150%; text-align: center;font-weight: 400;font-family: 'Merriweather', serif;">NEWS FEED</h1>
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><hr>
+  <div class="vertical-menu">
+  <a href="index.html" >US</a>
+  <a href="NSE.html" >NSE</a>
+  <a href="FOREX.html">FOREX</a>
+  <a href="#" class="active">INDICES</a>
+</div>
+<br><br><br><br><br><hr>
+<p style="font-size: 90%; text-align: center"><span class="material-icons">code</span><br>  Designed by XYZ</p><hr>
+
+</div>
+
+<div id="main">
+  <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; World Indices</span>
+  <div id="main1">
+    <hr>
+
+
+<!---div class="card">
+    <div class="card-body">
+      <h4 class="card-title">Company Name</h4>
+      <p class="card-text">Chart title</p>
+    </div>
+    <div class="container">
+      	<div class="row">
+      		<div class=col-md-6>
+      			<div id="chart_div" style="height: 400px;"></div>
+      		</div>
+      		<div class=col-md-6>
+      			<div id="curve_chart" style="height: 400px;"></div>
+      		</div>
+      	</div>
+      </div>
+  </div--->
+
+</div>
+</div>
+
+   
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "300px";
+  document.getElementById("main").style.marginLeft = "300px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</body>
+</html>
