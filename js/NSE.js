@@ -44,7 +44,7 @@ fetch(url).then(function(resp){
     let title = document.createElement('h5');
 title.setAttribute("class","card-title");
 title.setAttribute("style","font-family: 'Merriweather', serif;");
-title.innerHTML = "Company Name: "+company;
+title.innerHTML = "Company Name: "+company+ " (Stock Symbol: "+ x+")";;
 
 card_body.appendChild(title);
 card.appendChild(card_body);
