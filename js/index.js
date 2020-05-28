@@ -118,6 +118,8 @@ my_Div.appendChild(plot_div2);
 
 
     }
+    
+    window.onload = function(){
 
     for(x in graph_data){
 
@@ -229,7 +231,7 @@ var trace2 = {
     }
 
     
-console.log(graph_data)
 
+    }
  });
 
